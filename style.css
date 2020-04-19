@@ -296,6 +296,46 @@ nav{
     border-bottom: 3px solid #000;
 }
 
+.serv-container{
+    display: flex;
+    margin-top: 70px;
+}
+
+.services img{
+    width: 100%;
+    height: auto;
+}
+
+.serv-img-container{
+    width: 58%;
+}
+
+.serv-text{
+    width: 58%;
+    margin-left: 3%;
+}
+
+.serv-text p{
+    margin-bottom: 60px;
+}
+
+.services h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.services p{
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.services h4{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+
+
 @media screen and (max-width: 765px) {
     .toogle {
         clear: both;
@@ -459,4 +499,29 @@ nav{
         font-size: 30px;
     }
 
+    .serv-container{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .serv-img-container{
+        width: 100%;
+    }
+
+    .serv-text{
+        width: 100%;
+    }
+
+    .services h2{
+        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    .services p{
+        margin-left: 5%;
+    }
+
+    .serv-text p{
+        margin-left: 0;
+    }
 }
